@@ -13,18 +13,18 @@
 
 int main()
 {
-        char a = 'a';
-        short int b=10;
-        int c;
-        long int d;
-        float e;
-        double f;
+        char a = 'a';       //charcharcharcharcharcharcharcharchar  1
+        short int b=10;    //shortshortshortshortshortshortshortshortshortshortshort 2
+        int c;             //4
+        long int d;        //4
+        float e;           //floatfloatfloatfloatfloatfloatfloatfloatfloatfloaatfloatfloatfloat 4
+        double f;          //double double double double double double doule double   8 这个看编译器
         printf("%d\n",sizeof(a));
         printf("%d\n",sizeof(b));
         printf("%d\n",sizeof(c));
         printf("%d\n",sizeof(d));
         printf("%d\n",sizeof(e));
         printf("%d\n",sizeof(f));
-        system("pause");    //
+        system("pause");    //vscode 环境特有，运行终端暂停在结果页面
         return 0;
  }
