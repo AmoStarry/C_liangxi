@@ -11,10 +11,23 @@ int*p;
 p=&a;//错误的
 */
 /*static :静态变量
-const : 修饰只读*/
-#include <stdio>
+const : 修饰只读
+sizeof: 测变量或数组的占用储存空间的字节数
+typedef :给已有的类型，重新起一个类型名，并没有创建一个新的类型
+unsigned short int a =10;
+unsigned short int IN16;
+typedef unsigned short int IN16;//IN16就是unsigned short int*/
+#include <stdio.h>
+#include <windows.h>
+//unsigned short int a;
+//unsigned short int IN16;
+typedef unsigned short int IN16;
 int main()
 {
-    
+    unsigned short int a=101;
+    IN16 b=111;
+    printf("a=%d\n\r",a);
+    printf("b=%d\n\r",b); 
+    system("pause");  
     return 0;
 }
