@@ -31,3 +31,5 @@ int main()
     system("pause");  
     return 0;
 }
+/*volatile： 定义的变量，是以改变的，即告诉CPU每次用volatile变量的时候，重新去内存中取保证用的是最新的值，而不是寄存器中的备份
+volatile int a=10;*/
