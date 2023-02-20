@@ -5,9 +5,10 @@ char 定义每个变量被分配一个字节的内存空间
 int main()
 {
     char a='a';
-    char b="b";
+    char b=120;
     printf("a=%c",a);
     printf("b=%c",b);
-    
+    //printf("a=%d",a);
+    // printf("b=%d",b);
     return 0;
 }
