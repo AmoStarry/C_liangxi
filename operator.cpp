@@ -45,6 +45,8 @@ if（（a>b） || (b<c)）
     /*A?B:C
     如果A成立 则表达式B成立  如果A不成立  则表达式C成立 */
 
+    
+
 #include <stido.h>
 int main()
 {
