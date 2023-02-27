@@ -3,7 +3,7 @@
 #include <windows.h>
 int main()
 {
-    float 0 score;
+    float  score;
     printf("please input a score:\n");
     scanf("%f",&score);
     if (score < 0 ||score >100)
