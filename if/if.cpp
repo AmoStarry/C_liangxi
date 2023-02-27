@@ -3,9 +3,9 @@
 #include <windows.h>
 int main()
 {
-    float score
+    float 0 score;
     printf("please input a score:\n");
-    scanf("%d",&score);
+    scanf("%f",&score);
     if (score < 0 ||score >100)
     {
         printf("请输入一个0到一百的数\N");
