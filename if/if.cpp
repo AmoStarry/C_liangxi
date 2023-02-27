@@ -1,5 +1,6 @@
 //成绩判断
 #include <stdio.h>
+#include <windows.h>
 int main()
 {
     float score
@@ -25,5 +26,6 @@ int main()
     {
         printf("及格\n");
     }
+    system("pause");
     return 0;
 }
