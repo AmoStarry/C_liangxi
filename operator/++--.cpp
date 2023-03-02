@@ -8,6 +8,6 @@ int main()
     num = (i++) + (i++) + (i++); //num=9 i=6
     num = (++i) + (++i) + (++i); //num=6+6+6=18 i=6 linux 系统下不一样 num=5+5+6=16 i=6
 
-    printf("num =%d\n, i =%d\n",num ,i); 
+    printf("num =%d\n, i =%d\n",num ,i);    //时间不过一个视频而已
     return 0;
 }
