@@ -7,4 +7,6 @@ int main()
     system("pause");
     return 0;
 }
-
+// 记录
+/*
+涂鸦物联网   安可信  离线语音*/
