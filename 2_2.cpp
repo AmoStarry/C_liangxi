@@ -17,5 +17,6 @@ int main()
         }
 
     }
-    system("puase");
+    system("pause");
+    return 0;
 }
