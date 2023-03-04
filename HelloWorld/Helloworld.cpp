@@ -10,3 +10,16 @@ int main()
 // 记录
 /*
 涂鸦物联网   安可信  离线语音*/
+
+void main()
+{
+    int a, b, c;
+    scanf("%d %d",&a,&b);  
+    c=a; a=b;b=c;
+    prinf("%d %d",a,b);
+    return 0;
+}
+
+
+
+
