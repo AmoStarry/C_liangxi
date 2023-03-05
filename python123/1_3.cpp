@@ -3,14 +3,14 @@
 int main()
 #include <windows.h>
 {
-    int i,n;
+    int i,n;     //存入入四十个成绩
     float x[40],sum=0,pin;
     scanf("%d",n);
     for(i=0;i<n;i++)
     {
         scanf("%f",&x[i]);+
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i++)  
     {
         sum =sum+x[i];
     }
