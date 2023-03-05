@@ -3,12 +3,12 @@
 int main()
 #include <windows.h>
 {
-    int i,n;     //存入入四十个成绩
+    int i,n;     //存入入四十个成绩        
     float x[40],sum=0,pin;
     scanf("%d",n);
     for(i=0;i<n;i++)
     {
-        scanf("%f",&x[i]);+
+        scanf("%f",&x[i]);
     }
     for(i=0;i<n;i++)  
     {
@@ -28,3 +28,6 @@ int main()
     return 0;
 
 }
+/*for(i<N)加加循环输入
+for(sum=sum+x[i])
+for()if(pin<x[i])*/
