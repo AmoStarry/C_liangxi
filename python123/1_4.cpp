@@ -4,7 +4,7 @@ int main()
 {
     int n;
     float m;
-    scanf("%d",&n);
+    scanf("%d",&n);  //else if 阶梯用电
     if(n<=220)
     {
         m = n*0.49;
