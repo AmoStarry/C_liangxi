@@ -39,3 +39,12 @@ main() {
         printf("%5d",a[i]);
 return 0;
 }
+
+/*#include <tsdio.h>
+int main()
+{
+	for(i=0;i<10;i++)
+	{
+		scanf("%d",&a[i])
+	}
+}*/
