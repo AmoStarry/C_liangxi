@@ -26,6 +26,5 @@ int main()
     {
         printf("及格\n");
     }
-    system("pause");
     return 0;
 }
