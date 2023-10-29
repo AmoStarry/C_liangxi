@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <windows.h>
 int main()
 {
     unsigned int i;
@@ -8,6 +9,7 @@ int main()
         if(i%10 ==0)
         printf("\n");
     }
+    system("pause");
     return 0;
+
 }
-打卡
