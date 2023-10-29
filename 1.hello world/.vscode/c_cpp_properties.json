@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceRoot}",
+        "C:\\Program Files\\mingw64"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "__GNUC__=6",
+        "__cdecl=__attribute__((__cdecl__))"
+      ],
+      "intelliSenseMode": "windows-gcc-x64",
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": "",
+        "path": [
+          "${workspaceRoot}",
+          "C:\\Program Files\\mingw64"
+        ]
+      },
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "compilerPath": "D:/rujian/MSYS2/ucrt64/bin/gcc.exe"
+    }
+  ],
+  "version": 4
+}
